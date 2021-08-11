@@ -8,7 +8,7 @@ let Menu = ()=>{
                 <a className="link_hover" href="#">News</a>
                 <a className="link_hover" href="#">Music</a>
 
-                <button>settings</button>
+                <button className="button">settings</button>
 
         </div>
 

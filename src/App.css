@@ -41,4 +41,58 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.header{
+  width: 1440px;
+  height: 60px;
+  background-color: black;
+  margin-left: 10%;
+  
+}
+
+.header > img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 560px;
+  background: chartreuse;
+  margin-left: 10%;
+}
+
+.conteiner{
+  display: flex;
+}
+
+.link_hover{
+  color: blue;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.button{
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color:red;
+  background: skyblue;
+  border-radius: 10px;
+}
+
+.banner{
+  width: 1240px;
+  height: 250px;
+  background: cadetblue;
+
 }
