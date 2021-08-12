@@ -1,0 +1,73 @@
+
+
+
+.banner{
+    width: 1240px;
+    height: 250px;
+    background: cadetblue;
+  
+  }
+
+  .link_hover{
+    color:rgb(255, 0, 0);
+    font-size: 20px;
+    margin-right: 10px;
+    background: silver;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+
+  .header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    max-width: 100%;
+    height: 300px;
+    background-image: url(http://arrow.mojserial.pl/wp-content/uploads/2015/11/Arrow-1250x400.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.Name{
+    margin-left: 14px;
+    display: flex;
+    color:#ffff;
+    
+}
+
+.Name> h2{
+    margin-left: 9px;
+    font-size: 26px;
+}
+
+.post{
+  width: 100%;
+  height: 100%;
+  background-color: chartreuse;
+}
+
+textarea { 
+  width: 600px;
+  height: 120px;
+  resize: none;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+}
+
+.button{
+display: flex;
+flex-direction: column;
+
+}
+
+.button > button{
+ padding: 10px;
+ margin-top: 20px;
+ text-transform: uppercase;
+}

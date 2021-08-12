@@ -23,6 +23,9 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+	background-image: url(https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/ru_RU/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
 }
 input,button,textarea{font-family:inherit;}
 
@@ -45,54 +48,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   flex-direction: column;
 }
 
-.header{
-  width: 1440px;
-  height: 60px;
-  background-color: black;
-  margin-left: 10%;
-  
-}
 
-.header > img{
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
-}
 
-.link{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 200px;
-  height: 560px;
-  background: chartreuse;
-  margin-left: 10%;
-}
 
-.conteiner{
-  display: flex;
-}
 
-.link_hover{
-  color: blue;
-  text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 20px;
-}
 
-.button{
-  width: 100%;
-  height: 40px;
-  text-transform: uppercase;
-  font-size: 20px;
-  color:red;
-  background: skyblue;
-  border-radius: 10px;
-}
 
-.banner{
-  width: 1240px;
-  height: 250px;
-  background: cadetblue;
-
-}
