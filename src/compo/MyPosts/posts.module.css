@@ -28,10 +28,16 @@
 }
 
 .text_content{
-    margin-left: 40px;
-    display: flex;
- width: 70%;
- height: 90%;
- background-color: brown;
+margin-left: 40px;
+display: flex;
+width: 70%;
+height: 90%;
+background-color: brown;
 
+}
+
+.text_content > p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: fantasy;
 }

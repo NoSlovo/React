@@ -26,7 +26,7 @@ let Contents = ()=>{
                 </div>
             </div>
                     <Posts/>
-                    <Posts/>
+                   
 
                 </div>
            </div>
